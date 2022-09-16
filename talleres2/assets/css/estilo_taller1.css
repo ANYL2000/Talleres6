@@ -1,0 +1,125 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+background-color: red;
+position: relative;
+left: 0;
+right: 0;
+width: auto;
+height: 25vh;
+margin: 0%;
+box-shadow: 8px 5px 8px black;
+}
+
+.titulo_registrar{
+    font-size:x-large;
+    color: black;
+    width: 20vw;
+    margin-top: -5vh;
+    margin-bottom: 15vh;
+    position: relative;
+    left: 40%;
+    justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo_pagina{
+    position: absolute;
+   top: 10px;
+   width: 100%;
+     text-align: center;
+    color: white;
+    font-size:xx-large;
+    z-index: 10;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondo{
+height: auto;
+background-color: whitesmoke;
+position: relative;
+margin-left: 5vw;
+margin-right: 5vw;
+padding-top: 5vw; 
+box-shadow: 8px 4px 8px black;
+padding-bottom: 10vh;
+}
+
+form ul{
+list-style: none;
+margin-top: 3vh;
+position: relative;
+}
+
+form ul li{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form ul li button{
+    margin: 30px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 8vh;
+}
+
+#resetear{
+    background-color:lightslategray;
+    color: white;
+    padding: 6px;
+}
+
+#enviar{
+    background-color: green;
+    color: white;
+    padding: 6px;
+}
+
+.botones li{
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.botones li #enviar:hover{
+    background-color: rgb(17, 184, 17);
+}
+
+.botones li #resetear:hover{
+    background-color: rgb(132, 161, 190);
+}
+
+
+#mostrar_talleres{
+   
+    padding: 6px;
+    position: relative;
+    width: auto;
+    right: -13vw;
+}
+
+img{
+    margin-right: 10px;
+}
+
+form ul li label *{
+
+    margin-left: 3vw;
+}
+
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.radio_opcion{
+    margin-left: 2vw;
+}
